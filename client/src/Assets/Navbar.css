@@ -1,8 +1,66 @@
 .Nav-body{
-    border: 1px solid black;
-    height: 50px;
+    background-color: #f2f2f2;
+    height: 75px;
     overflow: hidden;
     position: fixed;
-    top:0;
+    top: 0;
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 99.5%;
+    left: 0;
 }
+
+.flex-child{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#flex-1{
+    width: 20%;
+    padding-left:1px;
+}
+
+.flex-child-1{
+    display: flex;
+    align-items: center;
+}
+
+.flex-child-11{
+    width: 75px;
+    margin-left: 10px;
+}
+
+#flex-3{
+    width: 15%;
+}
+
+#flex-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#flex-2 > div{
+    margin: 10px;
+}
+
+.flex-child-11{
+    overflow: hidden;
+    background-color: #f2f2f2;
+    z-index:3;
+}
+
+.logo{
+    width: auto;
+    height: 75px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+
+
