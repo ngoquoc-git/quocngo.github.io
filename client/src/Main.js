@@ -1,7 +1,7 @@
-import './Main.css';
-function Main(){
+import './Assets/Main.css';
+const Main = () => {
     return(
-        <div ClassName="body">
+        <div className="body">
             This is a body part
         </div>
     );
