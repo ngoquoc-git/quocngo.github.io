@@ -2,7 +2,7 @@ import './Assets/Main.css';
 const Main = () => {
     return(
         <div className="body">
-            This is a body part
+            This is the body part
         </div>
     );
 }
