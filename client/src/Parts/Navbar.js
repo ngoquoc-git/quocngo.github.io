@@ -1,6 +1,5 @@
 import '../Assets/Navbar.css';
-import 'react-ionicons';
-import { LogoClosedCaptioning, LogoGithub, LogoInstagram, LogoLinkedin, LogOutOutline, ReorderThreeOutline } from 'react-ionicons';
+import {LogoGithub, LogoInstagram, LogoLinkedin, ReorderThreeOutline } from 'react-ionicons';
 import logo from '../Assets/Quoc-navy-logo.PNG';
 
 const Navbar = () => {
